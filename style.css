@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* to apply tailwind to all body container at once using layer and base to tell apply tailwind class on : */
+@layer base{
+    body{
+        @apply font-body;
+    }
+    h1, h1, h3{
+        @apply font-display text-gray-800 font-medium;
+    }
+}
